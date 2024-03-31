@@ -88,43 +88,44 @@ Descripción del proyecto: proximamente...
   </tr>
   </table>
   <table align='center'>
-<tr>
-<td align='center'>
-      <div >
-        <a href="https://github.com/BrunoRubulotta" target="_blank" rel="author">
-          <img width="110" src="https://avatars.githubusercontent.com/u/118399561?v=4"/>
-        </a>
-        <a href="https://github.com/BrunoRubulotta" target="_blank" rel="author">
-          <h4 style="margin-top: 1rem;">Bruno Rubulotta</br></h4>
-        </a>
-        <div style='display: flex; flex-direction: column'>
-        <a href="https://github.com/BrunoRubulotta" target="_blank">
-          <img style='width:8rem' src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
-        </a>
-        <a href="https://www.linkedin.com/in/bruno-rubulotta/" target="_blank">
-          <img style='width:8rem' src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-        </a>
+    <tr>
+      <td align='center'>
+        <div >
+          <a href="https://github.com/BrunoRubulotta" target="_blank" rel="author">
+            <img width="110" src="https://avatars.githubusercontent.com/u/118399561?v=4"/>
+          </a>
+          <a href="https://github.com/BrunoRubulotta" target="_blank" rel="author">
+            <h4 style="margin-top: 1rem;">Bruno Rubulotta</br></h4>
+          </a>
+          <div style='display: flex; flex-direction: column'>
+          <a href="https://github.com/BrunoRubulotta" target="_blank">
+            <img style='width:8rem' src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
+          </a>
+          <a href="https://www.linkedin.com/in/bruno-rubulotta/" target="_blank">
+            <img style='width:8rem' src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+          </a>
+          </div>
         </div>
-      </div>
-    </td>
-<td align='center'>
-      <div >
-        <a href="https://github.com/Marivero86" target="_blank" rel="author">
-          <img width="110" src="https://avatars.githubusercontent.com/u/162741768?v=4"/>
-        </a>
-        <a href="https://github.com/Marivero86" target="_blank" rel="author">
-          <h4 style="margin-top: 1rem;">Marina</br></h4>
-        </a>
-        <div style='display: flex; flex-direction: column'>
-        <a href="https://github.com/Marivero86" target="_blank">
-          <img style='width:8rem' src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
-        </a>
-        <a href="https://www.linkedin.com/" target="_blank">
-          <img style='width:8rem' src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
-        </a>
+      </td>
+      <td align='center'>
+        <div >
+          <a href="https://github.com/Marivero86" target="_blank" rel="author">
+            <img width="110" src="https://avatars.githubusercontent.com/u/162741768?v=4"/>
+          </a>
+          <a href="https://github.com/Marivero86" target="_blank" rel="author">
+            <h4 style="margin-top: 1rem;">Marina</br></h4>
+          </a>
+          <div style='display: flex; flex-direction: column'>
+          <a href="https://github.com/Marivero86" target="_blank">
+            <img style='width:8rem' src="https://img.shields.io/static/v1?style=for-the-badge&message=GitHub&color=172B4D&logo=GitHub&logoColor=FFFFFF&label="/>
+          </a>
+          <a href="https://www.linkedin.com/" target="_blank">
+            <img style='width:8rem' src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white"/>
+          </a>
+          </div>
         </div>
-      </div>
-    </td>
+      </td>
+    </tr>
 </table>
 
 <h1>🛠️ Tecnologias Usadas
