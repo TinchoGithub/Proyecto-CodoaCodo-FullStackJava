@@ -4,7 +4,7 @@
 
   <div align='center'>
 <h1 style="font-size: 27px;">Proyecto Codo a Codo Full Stack Java</h1></div>
-<hr>
+
 <div>
   <p>
     Proyecto Final para curso de Codo a Codo 4.0 Full Stack Java.
