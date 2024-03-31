@@ -152,8 +152,8 @@ Descripción del proyecto: proximamente...
 <!-- Organización -->
 <h1>💬 Organización
 </h1>
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" alt="Logo" width="60" height="60">_
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Logo" width="60" height="60">_
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/notion/notion-original.svg" alt="Logo" width="60" height="60">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Logo" width="60" height="60">
 <img src="https://img.icons8.com/color/480/discord-new-logo.png" alt="Logo" width="60" height="60">
 
 <!-- TEAMS -->
