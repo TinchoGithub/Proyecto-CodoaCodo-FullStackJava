@@ -3,7 +3,7 @@
 <br />
 
   <div align='center'>
-<h3 style="font-size: 27px;">Proyecto Codo a Codo Full Stack Java</h3></div>
+<h1 style="font-size: 27px;">Proyecto Codo a Codo Full Stack Java</h1></div>
 <hr>
 <div>
   <p>
