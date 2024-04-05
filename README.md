@@ -113,7 +113,7 @@ Descripción del proyecto: proximamente...
             <img width="110" src="https://avatars.githubusercontent.com/u/162741768?v=4"/>
           </a>
           <a href="https://github.com/Marivero86" target="_blank" rel="author">
-            <h4 style="margin-top: 1rem;">Marina</br></h4>
+            <h4 style="margin-top: 1rem;">Marina Ortega</br></h4>
           </a>
           <div style='display: flex; flex-direction: column'>
           <a href="https://github.com/Marivero86" target="_blank">
@@ -157,6 +157,7 @@ Descripción del proyecto: proximamente...
 <img src="https://img.icons8.com/color/480/discord-new-logo.png" alt="Logo" width="60" height="60">
 
 <!-- TEAMS -->
+
 
 
 
