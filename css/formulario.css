@@ -68,6 +68,15 @@ body{
     padding-left: 15px;
 }
 
+.input-box input[type="date"]::-webkit-calendar-picker-indicator {
+    position: relative;
+    bottom: 5px;
+    right: 15px;
+}
+
+
+
+
 /* .input-box input:focus~label,
 .input-box input:valid~label{
     color: #dfdfdf;
