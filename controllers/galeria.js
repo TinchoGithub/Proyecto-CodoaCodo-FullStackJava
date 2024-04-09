@@ -8,6 +8,14 @@ const images = [
     {src:"../assets/img/aclamada_7.jpg", title: "Batman"},
     {src:"../assets/img/aclamada_8.jpg", title: "Parasite"},
     {src:"../assets/img/aclamada_9.jpg", title: "The Green Mile"},
+    {src:"../assets/img/aclamada_10.jpg", title: "Forrest Gump"},
+    {src:"../assets/img/aclamada_11.jpg", title: "Pull Fiction"},
+    {src:"../assets/img/aclamada_12.jpg", title: "Lord of the Rings"},
+    {src:"../assets/img/mario.jpg", title: "Mario Bross Movie"},
+    {src:"../assets/img/peli_1.jpg", title: "The Beekeeper"},
+    {src:"../assets/img/peli_2.jpg", title: "Badland Hunters"},
+    {src:"../assets/img/peli_3.jpg", title: "ParasThe Marvels"},
+    {src:"../assets/img/peli_4.jpg", title: "Wonka"}
     // Se pueden añadir mas imagenes...
 ];
 
@@ -15,6 +23,7 @@ const images = [
 function createCard(image) {
     const cardDiv = document.createElement('div');
     cardDiv.classList.add('col', 'mb-5', 'bg');
+    cardDiv.setAttribute('data-aos', 'flip-left');
 
     const card = document.createElement('div');
     card.classList.add('card', 'h-100', 'bg-dark');
