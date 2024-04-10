@@ -10842,10 +10842,7 @@ height: 100%; /* Asegúrate de que el carousel ocupe toda la altura */
   max-height: 600px;
   margin: 0 auto;
 }
-.card-img-top{
-  object-fit:"cover";
-  height:"100%";
-}
+
 .iconos i{
   color: var(--bs-gray-600);
   padding: 18px;
@@ -10854,5 +10851,15 @@ height: 100%; /* Asegúrate de que el carousel ocupe toda la altura */
 }
 .iconos i:hover{
   color: var(--bs-blue);
+}
+.card {
+  transition: transform 0.5s, box-shadow 0.5s;
+  
+}
+
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 20px var(--bs-primary);
+  cursor: pointer;
 }
 
