@@ -1,47 +1,73 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Descripcion del proyecto">
-    <meta name="keywords" content="Aca van palabras claves para que encuentren nuestra pagina en motores de busqueda">
-    <meta name="author" content="Martín Perez, Stefani Martinez, Eduardo Garcia">
-    <title>Titulo que aparece en la pestaña</title>
-    <link rel="shortcut icon" href="Icono que aparece en la pestaña al lado del titulo" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Descripcion del proyecto">
+        <meta name="keywords" content="NexWix la mejor plataforma para ver peliculas online">
+        <meta name="author" content="Martín Perez, Stefani Martinez, Eduardo Garcia">
+        <title>NexWix</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="../assets/img/logo.png" />
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-</head>
-<body>
-    <header >
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid"><a class="navbar-brand" href="#">Navbar</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-    </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-            <a class="nav-link" href="#">Features</a>
-            <a class="nav-link" href="#">Pricing</a>
-            
-            </div>
-        </div>
-        </div>
-    </nav>
-        <nav>
-            <!-- ACA VA EL MENU DE NAVEGACION  -->
-        </nav>
-    </header>
-
-    <main>
-        <img src="./img/banner.png" alt="banner" width="100%">
-        <!-- ACA VA EL CUERPO DE LA PÁGINA WEB PUEDEN IR SECCIONES ETC... -->
-        <h1>Hello Word! Creo que lo hice :D</h1> 
-    </main>
-
-    <footer>
-        <!-- ACA VA EL PIE DE PÁGINA -->
-    </footer>
+        <link href="./assets/css/login.css" rel="stylesheet" />
+        
     
-</body>
+
+        <script src="https://kit.fontawesome.com/c4b76b6bec.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body class="d-flex align-items-center py-4 bg-body-tertiary" >
+
+      
+      <main class="form-signin w-100 m-auto" data-aos="fade-right" data-aos-duration="1000">
+        <form>
+          
+          <div style="text-align: center;">
+            <a href="./pages/home.html"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
+            <a href="./pages/home.html"><img class="mb-4" src="./assets/img/logo.png" alt="logo" width="100px" ></a>
+          </div>
+          
+          <div class="form-floating">
+            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+            <label for="floatingInput">Email</label>
+          </div>
+          <div class="form-floating">
+            <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+            <label for="floatingPassword">Password</label>
+          </div>
+      
+          <div class="form-check text-start my-3">
+            <input class="form-check-input" type="checkbox" value="remember-me" id="flexCheckDefault">
+            <label class="form-check-label" style="color: var(--bs-gray-500);" for="flexCheckDefault">
+              Recordarme
+            </label>
+          </div>
+          <button class="btn btn-primary w-100 py-2" type="submit">Comenzar</button>
+          <span class="text-secondary">¿No te has registrado?</span> <a class="text-success fw-bold" style="text-decoration: none;" href="./pages/formulario.html">¡Registrate!</a>
+          
+        </form>
+        
+        
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="../controllers/scripts.js"></script>
+        <script src="../controllers/galeria.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        
+        
+    </body>
 </html>

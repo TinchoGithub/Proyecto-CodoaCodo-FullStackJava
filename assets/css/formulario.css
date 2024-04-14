@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --padding-container: 100px 0;
+    --color-title: white ; 
+
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url('../img/17000106870035.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: var(--padding-container);
+    border-radius: 60px;
+}
+
+
+.form-box h2{
+    font-size: 2em;
+    color: #eeeff1;
+    text-align: center;
+}
+
+.input-box{
+    position: relative;
+    width: 100%;
+    height: 70px;
+    /* border-bottom: 2px solid #DFFBFC; */
+    margin: 20px 0;
+}
+
+.input-box label{
+    position: absolute;
+    top: 20%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 12px;
+    color: #dfdfdf; 
+    font-weight: 500;
+    pointer-events: none;
+    transition: .5s; 
+    margin-left: 60px;
+    color: #888;
+} 
+
+/* .input-box input:focus~label,
+.input-box input:valid~label{
+    color: #dfdfdf;
+    top: -5px;
+} */
+
+.input-box input{
+    width: calc(100% - 100px);
+    height: 70%;
+    background: transparent; 
+    border-radius: 30px;
+    outline: none; 
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #dfdfdf;
+    margin-left: 50px;
+    /* padding: 0 35px 0 5px; */
+}
+
+/* .input-box .icon{
+    position : absolute;
+    right: 8px;
+    font-size: 1.2em;
+    color: white;
+    line-height: 57px;
+} */
+
+.remember-forgot{
+    font-size: .9em;
+    color: white; 
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.remember-forgot label input{
+    /* accent-color: white; */
+    margin-left: 60px;
+} 
+
+.remember-forgot a{
+    /* color: white; */
+    text-decoration: none;
+}
+
+/* .remember-forgot a:hover{
+    text-decoration: underline;
+} */
+
+.btn{
+    width: 60%;
+    height: 45px;
+    background: #C0392B;
+    /* color: #DFFBFC; */
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 500;
+    margin-left: 60px;
+}
+
+/*.btn:hover{
+    background: green;
+}*/
+
+.login-register{
+    font-size: .9em;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+.login-register p a{
+    /* color: white; */
+    text-decoration: none;
+    font-weight: 600;
+}
+
+/* .login-register p a:hover{
+    text-decoration: underline;
+} */
+#contenedor{
+    background-color: rgb(43, 41, 41);
+    width: 350px;
+
+}
+h2{
+    color: white;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 15px;
+}
+/* .campos{
+    width: 70%;
+    height: 70%;
+    background: transparent;
+    border-radius: 30px; 
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+} */
+
+h4{
+    color: #dfdfdf;
+
+}
+
+.input-box select {
+    width: calc(100% - 100px);
+    height: 70%;
+    background: transparent;
+    border-radius: 30px;
+    outline: none;
+    font-size: 1em;
+    font-weight: 600;
+    border: 2px solid #dfdfdf;
+    margin-left: 50px;
+}
+
+.input-box select:focus + label,
+.input-box select:valid + label {
+    color: #dfdfdf;
+    top: -5px;
+}
+
+.input-box > label[for="pais"] {
+    color: #dfdfdf;
+    margin-top: 10px;
+    font-size: 15px;
+}
