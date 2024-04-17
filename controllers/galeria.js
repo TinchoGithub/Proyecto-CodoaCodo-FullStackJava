@@ -1,32 +1,33 @@
-// Datos de ejemplo (URL de imágenes y nombres de películas)
 const images = [
-    {src:"../assets/img/aclamada_1.jpg", title: "Shawshank"},
-    {src:"../assets/img/aclamada_2.jpg", title: "El Padrino"},
-    {src:"../assets/img/aclamada_4.jpg", title: "Schindler´sList"},
-    {src:"../assets/img/aclamada_5.jpg", title: "12 Angry Men"},
-    {src:"../assets/img/aclamada_6.jpg", title: "Spirited Away"},
-    {src:"../assets/img/aclamada_7.jpg", title: "Batman"},
-    {src:"../assets/img/aclamada_8.jpg", title: "Parasite"},
-    {src:"../assets/img/aclamada_9.jpg", title: "The Green Mile"},
-    {src:"../assets/img/aclamada_10.jpg", title: "Forrest Gump"},
-    {src:"../assets/img/aclamada_11.jpg", title: "Pull Fiction"},
-    {src:"../assets/img/aclamada_12.jpg", title: "Lord of the Rings"},
-    {src:"../assets/img/mario.jpg", title: "Mario Bross Movie"},
     {src:"../assets/img/peli_1.jpg", title: "The Beekeeper"},
     {src:"../assets/img/peli_2.jpg", title: "Badland Hunters"},
-    {src:"../assets/img/peli_3.jpg", title: "ParasThe Marvels"},
-    {src:"../assets/img/peli_4.jpg", title: "Wonka"}
-    // Se pueden añadir mas imagenes...
+    {src:"../assets/img/peli_3.jpg", title: "The Marvels"},
+    {src:"../assets/img/peli_4.jpg", title: "Wonka"},
+    {src:"../assets/img/peli_5.jpg", title: "Aquaman"},
+    {src:"../assets/img/peli_6.jpg", title: "Migration"},
+    {src:"../assets/img/peli_7.jpg", title: "60 Minutes"},
+    {src:"../assets/img/peli_8.jpg", title: "Wish"},
+    {src:"../assets/img/peli_9.jpg", title: "The Masked Saint"},
+    {src:"../assets/img/peli_10.jpg", title: "Due Justice"},
+    {src:"../assets/img/peli_11.jpg", title: "Orion and the Dark"},
+    {src:"../assets/img/peli_12.jpg", title: "..."},
+    {src:"../assets/img/peli_13.jpg", title: "Lift"},
+    {src:"../assets/img/peli_14.jpg", title: "Attack"},
+    {src:"../assets/img/peli_15.jpg", title: "Mutant ghost wargirl"},
+    {src:"../assets/img/peli_16.jpg", title: "Poors things"},
+    {src:"../assets/img/peli_17.jpg", title: "The 5"},
+    {src:"../assets/img/peli_18.jpg", title: "Trunk Locked in"},
+    {src:"../assets/img/peli_19.jpg", title: "Anyone but you"}
 ];
 
 // Función para crear una  Card para cada imagen
 function createCard(image) {
     const cardDiv = document.createElement('div');
-    cardDiv.classList.add('col', 'mb-5', 'bg');
+    cardDiv.classList.add('col', 'mb-5');
     cardDiv.setAttribute('data-aos', 'flip-left');
 
     const card = document.createElement('div');
-    card.classList.add('card', 'h-100', 'bg-dark');
+    card.classList.add('card', 'h-100', 'bg-black');
 
     const imageElement = document.createElement('img');
     imageElement.classList.add('img-fluid');
