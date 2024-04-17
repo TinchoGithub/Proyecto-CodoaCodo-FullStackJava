@@ -17,7 +17,8 @@ const images = [
     {src:"../assets/img/peli_16.jpg", title: "Poors things"},
     {src:"../assets/img/peli_17.jpg", title: "The 5"},
     {src:"../assets/img/peli_18.jpg", title: "Trunk Locked in"},
-    {src:"../assets/img/peli_19.jpg", title: "Anyone but you"}
+    {src:"../assets/img/peli_19.jpg", title: "Anyone but you"},
+    {src:"../assets/img/mario.jpg", title: "Mario Bros"},
 ];
 
 // Función para crear una  Card para cada imagen
@@ -27,7 +28,7 @@ function createCard(image) {
     cardDiv.setAttribute('data-aos', 'flip-left');
 
     const card = document.createElement('div');
-    card.classList.add('card', 'h-100', 'bg-black');
+    card.classList.add('card', 'h-100', 'bg-dark');
 
     const imageElement = document.createElement('img');
     imageElement.classList.add('img-fluid');
@@ -38,12 +39,12 @@ function createCard(image) {
     textDiv.classList.add('text-center', 'p-3');
 
     const title = document.createElement('h5');
-    title.classList.add('card-title', 'text-secondary', 'mb-3');
+    title.classList.add('card-title', 'text-white', 'mb-3');
     title.textContent = image.title;
 
     const button = document.createElement('a');
     button.classList.add('btn', 'btn-primary', 'mt-auto');
-    button.href = "#";
+    button.href = "./detalle.html";
     button.textContent = "Ver película";
 
     textDiv.appendChild(title);

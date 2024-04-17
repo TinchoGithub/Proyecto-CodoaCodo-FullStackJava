@@ -22,7 +22,7 @@
 
         <!--NAVBAR-->
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="inicio">
             <div class="container-fluid px-4 px-lg-5">
                 <a class="navbar-brand" href="./home.html">
                     <img src="../assets/img/logo.png" width="60" class="d-inline-block align-top" alt="Logo">
@@ -48,8 +48,8 @@
                                 <li><a class="dropdown-item text-primary" href="#">Aventura</a></li>
                                 <li><a class="dropdown-item text-primary" href="#">Ciencia Ficción</a></li>
                                 <li><a class="dropdown-item text-primary" href="#">Comedia</a></li>
-                                <li><a class="dropdown-item text-primary" href="#">Documentales</a></li>
-                                <li><a class="dropdown-item text-primary" href="#">Drama</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">Anime</a></li>
+                                <li><a class="dropdown-item text-primary" href="#">Terror</a></li>
                                 <li><a class="dropdown-item text-primary" href="#">Fantasía</a></li>
                             </ul>
                         </li>
@@ -95,7 +95,7 @@
 
         <!-- SECCIÓN PELICULAS-->
 
-        <section class="bg-dark pt-5">
+        <section class="bg-black pt-5" >
             <div class="container px-4 px-lg-5 ">
                 <div  class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center" id="gallery">
                     
@@ -104,14 +104,14 @@
                 </div>
             </div>
         </section>
-
+        
         <!--SECCIÓN PELICULAS ACLAMADAS-->
 
-        <section class="peliculasAclamadas mb-4" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1500">
+        <section class="peliculasAclamadas" data-aos="fade-up" data-aos-offset="200" data-aos-delay="100" data-aos-duration="1500">
             <div class="container">
                 <div class="row">
                     <div class="col">
-                        <h3 class="tituloSection text-center text-primary">Las más aclamadas</h3>
+                        <h3 class="tituloSection text-center text-white pt-3 pb-3"><a><img src="https://fontmeme.com/permalink/240417/1f3a1284bfbc90857c2cd0d8dfa21177.png" alt="fuente-de-splatoon" border="0"></a></h3>
                     </div>
                 </div>
                 <div class="row">
@@ -120,7 +120,7 @@
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <div class="row">
-                                        <div class="col-6 col-md-3">
+                                        <div class="col-6 col-md-3 card-aclamadas">
                                             <img src="../assets/img/aclamada_1.jpg" class="img-fluid rounded mx-auto d-block" alt="aclamada_1">
                                         </div>
                                         <div class="col-6 col-md-3">
@@ -180,10 +180,13 @@
                 </div>
             </div>
         </section>
+        
+        
 
         <!--FOOTER-->
 
         <footer  class="bg-black w-100" >
+            <a class="btn-up" href="#inicio"><i class="fa-solid fa-up-long"></i></a>
             <div class="text-center text-secondary p-3 " >
               <a href="./home.html"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" width="100px" alt="fuente-de-netflix" border="0"></a>
             </div>
