@@ -10843,6 +10843,8 @@ height: 100%; /* Asegúrate de que el carousel ocupe toda la altura */
   margin: 0 auto;
 }
 
+/* FOOTER */
+
 .iconos i{
   color: var(--bs-gray-600);
   padding: 18px;
@@ -10852,6 +10854,9 @@ height: 100%; /* Asegúrate de que el carousel ocupe toda la altura */
 .iconos i:hover{
   color: var(--bs-blue);
 }
+
+/* CARDS */
+
 .card {
   transition: transform 0.5s, box-shadow 0.5s;
   
@@ -10862,4 +10867,3 @@ height: 100%; /* Asegúrate de que el carousel ocupe toda la altura */
   box-shadow: 0 4px 20px var(--bs-primary);
   cursor: pointer;
 }
-
