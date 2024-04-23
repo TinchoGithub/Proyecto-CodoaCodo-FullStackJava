@@ -26,8 +26,8 @@
         
         <form>
           <div style="text-align: center;">
-            <a href="./pages/home.html"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
-            <a href="./pages/home.html"><img class="mb-4" src="./assets/img/logo.png" alt="logo" width="100px" ></a>
+            <a href="#"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
+            <a href="#"><img class="mb-4" src="./assets/img/logo.png" alt="logo" width="100px" ></a>
           </div>
           
           <div class="form-floating">
@@ -45,7 +45,7 @@
               Recordarme
             </label>
           </div>
-          <button class="btn btn-primary w-100 py-2" type="submit">Comenzar</button>
+          <button onclick="login()" class="btn btn-primary w-100 py-2" type="button">Comenzar</button>
           <span class="text-secondary">¿No te has registrado?</span> <a class="text-success fw-bold" style="text-decoration: none;" href="./pages/registro.html">¡Registrate!</a>
 
         </form>
@@ -64,6 +64,8 @@
         <script>
             AOS.init();
         </script>
+        <!-- Agrega SweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
       </main>
         
     </body>
