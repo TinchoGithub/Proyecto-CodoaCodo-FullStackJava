@@ -2,7 +2,7 @@
 
 function register(){
     Swal.fire({
-        title: "¡Felicidades! Te has registrado con éxito",
+        title: "¡Felicidades! Te has registrado satisfactoriamente",
         width: 600,
         padding: "3em",
         color: "#0d6efd",
@@ -22,7 +22,7 @@ function register(){
 
 function login() {
     Swal.fire({
-      position: "top-end",
+      position: "center",
       icon: "success",
       title: "¡Bienvenido!",
       showConfirmButton: false,
