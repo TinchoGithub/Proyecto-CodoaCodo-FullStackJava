@@ -20,15 +20,16 @@ function register(){
     });
 }
 
-function login(){
+function login() {
     Swal.fire({
-        position: "top-end",
-        icon: "success",
-        title: "¡Bienvido!",
-        showConfirmButton: false,
-        timer: 1500
-      });
-      
-    window.location.href = "./pages/home.html";
-    
-}
+      position: "top-end",
+      icon: "success",
+      title: "¡Bienvenido!",
+      showConfirmButton: false,
+      timer: 1500
+    }).then((result) => {
+      // Después de cerrar el mensaje, redirigir
+      window.location.href = "./pages/home.html";
+    });
+  }
+  
