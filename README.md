@@ -17,7 +17,7 @@
 <!-- ABOUT THE PROJECT -->
 <br>
 <h1 align="center"> 
-<img src="./assets/img/logo.png" width="30px"> Acerca del Proyecto
+<img src="./assets/img/logo.png" width="40px"> Acerca del Proyecto
 </h1>
 
 Nuestra plataforma NETWIX es una aplicación web de streaming de video que ofrece a los usuarios una amplia variedad de contenido multimedia, incluyendo películas, series de televisión, documentales y programas originales. Con una interfaz intuitiva y atractiva, los usuarios pueden navegar fácilmente a través del catálogo, encontrar contenido de su interés, y disfrutar de una experiencia de visualización sin interrupciones.
