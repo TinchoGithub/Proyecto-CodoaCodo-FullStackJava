@@ -26,8 +26,8 @@
         
         <form>
             <div style="text-align: center;">
-                <a href="../index.html"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
-                <a href="../index.html"><img class="mb-4" src="../assets/img/logo.png" alt="logo" width="100px"></a>
+                <a href="#"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
+                <a href="#"><img class="mb-4" src="../assets/img/logo.png" alt="logo" width="100px"></a>
             </div>
         
             <div class="form-floating">
@@ -56,7 +56,6 @@
                     <option value="argentina">Argentina</option>
                     <option value="brasil">Brasil</option>
                     <option value="chile">Chile</option>
-                    <!-- Agrega más opciones según sea necesario -->
                 </select>
                 <label for="country">País</label>
             </div>
@@ -68,7 +67,7 @@
                 </label>
             </div>
         
-            <button class="btn btn-primary w-100 py-2" type="submit">Registrar</button>
+            <button onclick="register()" class="btn btn-primary w-100 py-2" type="button">Registrar</button>
             <span class="text-secondary">¿Ya estás registrado?</span> <a class="text-success fw-bold" style="text-decoration: none;" href="../index.html">¡Ingresa!</a>
         </form>
         
@@ -87,6 +86,9 @@
         <script>
             AOS.init();
         </script>
+        <!-- Agrega SweetAlert2 -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
       </main>
         
     </body>
