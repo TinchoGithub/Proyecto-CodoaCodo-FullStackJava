@@ -29,7 +29,7 @@ function login() {
       timer: 1500
     }).then((result) => {
       // Después de cerrar el mensaje, redirigir
-      window.location.href = "../pages/home.html";
+      window.location.href = "./pages/home.html";
     });
   }
   
