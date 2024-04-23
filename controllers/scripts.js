@@ -28,7 +28,7 @@ function login(){
         showConfirmButton: false,
         timer: 1500
       });
-      setTimeout(() => {
-        window.location.href = "./pages/home.html";
-    }, 1000);
+      
+    window.location.href = "./pages/home.html";
+    
 }
