@@ -1,11 +1,7 @@
 
 <!-- PROJECT LOGO -->
+<img src="./assets/img/Banner-README.png" width="100%">
 <br />
-
-  <div align='center'>
-<h1 style="font-size: 27px;">Proyecto Codo a Codo Full Stack Java</h1></div>
-
-<div>
   <p>
     Proyecto Final para curso de Codo a Codo 4.0 Full Stack Java.
   </p>
@@ -21,10 +17,18 @@
 <!-- ABOUT THE PROJECT -->
 <br>
 <h1 align="center"> 
-🚀 Acerca del Proyecto
+<img src="./assets/img/logo.png" width="40px"> Acerca del Proyecto
 </h1>
 
-Descripción del proyecto: proximamente...
+Nuestra plataforma NETWIX es una aplicación web de streaming de video que ofrece a los usuarios una amplia variedad de contenido multimedia, incluyendo películas, series de televisión, documentales y programas originales. Con una interfaz intuitiva y atractiva, los usuarios pueden navegar fácilmente a través del catálogo, encontrar contenido de su interés, y disfrutar de una experiencia de visualización sin interrupciones.
+
+<!-- VISTAS -->
+
+<h1 align="center">🚀 Vistas
+</h1>
+<img src="./assets/img/NEXWIX.gif" width="100%">
+
+<!-- TEAMS -->
 
 <h1 align="center">🧑‍🤝‍🧑 Team 2
 </h1>
@@ -156,7 +160,6 @@ Descripción del proyecto: proximamente...
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/slack/slack-original.svg" alt="Logo" width="60" height="60">
 <img src="https://img.icons8.com/color/480/discord-new-logo.png" alt="Logo" width="60" height="60">
 
-<!-- TEAMS -->
 
 
 
