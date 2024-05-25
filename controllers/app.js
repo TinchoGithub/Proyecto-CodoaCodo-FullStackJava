@@ -183,6 +183,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 event.preventDefault();
                 generoActual = genero.id;
                 scroll = true;
+                searchQuery = '';
                 getPeliculas();
 
             });
