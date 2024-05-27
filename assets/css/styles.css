@@ -12613,25 +12613,25 @@ fieldset:disabled .btn {
   font-family: 'Nunito', sans-serif;
 }
 
-/* Estilo personalizado para el carousel con altura fija */
+
 
 .carousel {
   max-height: 600px;
-  /* Ajusta la altura máxima del contenedor del carrusel */
+ 
   overflow: hidden;
-  /* Oculta el desbordamiento vertical */
+ 
 }
 
 .carousel-inner {
   height: 100%;
-  /* Asegúrate de que el carousel ocupe toda la altura */
+  
 }
 
 .carousel-item img {
   object-fit: cover;
-  /* Escala las imágenes para que se ajusten a la altura del carousel */
+
   height: 100%;
-  /* Asegúrate de que las imágenes ocupen toda la altura del carousel */
+ 
   max-height: 600px;
   margin: 0 auto;
 }
@@ -12665,7 +12665,7 @@ fieldset:disabled .btn {
 /* peliculasAclamadas */
 
 .peliculasAclamadas {
-  background-image: url(../img/bg2.jpg);
+  background-image: url(../img/bg.jpg);
 }
 
 .card-aclamadas:hover {
@@ -12693,3 +12693,4 @@ fieldset:disabled .btn {
   color: var(--bs-white);
   box-shadow: 0 0 10px var(--bs-primary), 0 0 40px var(--bs-primary), 0 0 80px var(--bs-primary);
 }
+

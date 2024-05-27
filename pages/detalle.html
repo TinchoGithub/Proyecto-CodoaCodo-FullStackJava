@@ -23,15 +23,15 @@
 <body class="bg-white" data-aos="zoom-out" data-aos-duration="2000">
 
     <!--NAVBAR-->
-
+    
     <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="inicio">
         <div class="container-fluid px-4 px-lg-5">
+            <a href="./home.html">
+                <img src="https://fontmeme.com/permalink/240524/bb0964a14cb0be5fcb9ab7d6faf42241.png" alt="fuente-de-netflix" width="90px"
+                    alt="fuente-de-netflix" border="0">
+            </a>
             <a class="navbar-brand" href="./home.html">
                 <img src="../assets/img/logo.png" width="60" class="d-inline-block align-top" alt="Logo">
-            </a>
-            <a href="./home.html">
-                <img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" width="100px"
-                    alt="fuente-de-netflix" border="0">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -42,37 +42,37 @@
     </nav>
 
 
-    <main id="mainDetalle" class="mainDetalle" style="background-image: url(../assets/img/bg2.jpg);">
+    <main id="mainDetalle" class="mainDetalle" style="background-image: url(../assets/img/bg.jpg);">
 
         <!--DETALLES-->
 
         <section class="container" data-aos="zoom-in">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-6">
                         <div class="container p-3 h-10">
-                            <img src="../assets/img/aclamada_6.jpg" class="img-fluid rounded" alt="Spirited Away">
+                            <img id="imagen" src="" class="img-fluid rounded" alt="" style="width: 300px;">
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="container text-white">
-                            <h1 class="mb-4 text-primary"><b>Spirited Away</b></h1>
-                            <p class="mb-4"><b>Categoría</b>: Anime | <b>Duración</b>: 2h 05m</p>
-                            <h2 class="mb-3 text-primary"><b>Resumen</b></h2>
-                            <p class="mb-4">historia de una niña de diez años llamada Chihiro, quien durante una mudanza se ve atrapada en un mundo mágico y sobrenatural, teniendo como misión buscar su libertad y la de sus padres, y así poder regresar a su mundo.</p>
+                            <h1 id="titulo" class="mb-4 text-primary fw-bold"></h1>
+                            <p id="genero" class="mb-4"></p>
+                            <p id="sinopsis" class="mb-3"></p>
+                            <p class="mb-4"></p>
                             <div>
                                 <div class="row">
                                     <div class="col">
-                                        <h3>Hayao Miyazaki</h3>
-                                        <p class="mb-0">Director</p>
+                                        <h3 id="fecha"></h3>
+                                        <p class="mb-0 text-primary fw-bold">Fecha de lanzamiento</p>
                                     </div>
                                     <div class="col">
-                                        <h3>Yōji Takeshige</h3>
-                                        <p class="mb-0">Director Artístico</p>
+                                        <h3 id="presupuesto"></h3>
+                                        <p class="mb-0 text-primary fw-bold">Presupuesto</p>
                                     </div>
                                     <div class="col">
-                                        <h3>Hayao Miyazaki</h3>
-                                        <p class="mb-0">Escritor</p>
+                                        <h3 id="votos"></h3>
+                                        <p class="mb-0 text-primary fw-bold">Cantidad de votos</p>
                                     </div>
                                 </div>
                             </div>
@@ -84,9 +84,9 @@
 
         <!--VIDEO-->
 
-        <section class="bg-dark text-white p-3 " data-aos="fade-up" data-aos-duration="2000">
-            <div class="container w-60">
-                <iframe class="w-100" height="500px" src="https://www.youtube.com/embed/ByXuk9QqQkk?si=EXLK7uHqxRhKBIQ4" allowfullscreen></iframe>
+        <section class="text-white p-3 " data-aos="fade-up" data-aos-duration="2000">
+            <div id="video" class="container w-60">
+                <!-- ACA SE MOSTRARÁ EL VIDEO O UNA IMAGGEN SI NO TIENE TRAILER -->
             </div>
         </section>
         
@@ -115,7 +115,7 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="../controllers/scripts.js"></script>
-    <script src="../controllers/galeria.js"></script>
+    <script src="../controllers/detalle.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -126,7 +126,6 @@
     <script>
         AOS.init();
     </script>
-
 
 </body>
 
