@@ -4,9 +4,9 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="Descripcion del proyecto">
-        <meta name="keywords" content="NexWix la mejor plataforma para ver peliculas online">
-        <meta name="author" content="Martín Perez, Stefani Martinez, Eduardo Garcia">
+        <meta name="description" content="NexWix la mejor plataforma para ver peliculas online">
+        <meta name="keywords" content="NexWix, peliculas online">
+        <meta name="author" content="Martín Perez, Stefani Martinez, Eduardo Garcia, Bruno Rubulotta, Marina Ortega">
         <title>NexWix</title>
         <link rel="icon" type="image/x-icon" href="../assets/img/logo.png" />
 
@@ -24,30 +24,34 @@
 
         <!--FORMULARIO-->
         
-        <form>
+        <form id="registro">
             <div style="text-align: center;">
                 <a href="#"><img src="https://fontmeme.com/permalink/240410/e5a960b3e41dde62fd750d7b21b7369c.png" alt="fuente-de-netflix" border="0"></a>
                 <a href="#"><img class="mb-4" src="../assets/img/logo.png" alt="logo" width="100px"></a>
             </div>
         
             <div class="form-floating">
-                <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required>
+                <input type="text" class="form-control" id="username" placeholder="Nombre de usuario" required minlength="5">
                 <label for="username">Nombre de usuario</label>
+                <span id="userError" class="text-danger fw-bold"></span>
             </div>
             
             <div class="form-floating">
                 <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
                 <label for="email">Email</label>
+                <span id="emailError" class="text-danger fw-bold"></span>
             </div>
         
             <div class="form-floating">
                 <input type="password" class="form-control" id="password" placeholder="Password" required>
                 <label for="password">Contraseña</label>
+                <span id="passwordError" class="text-danger fw-bold"></span>
             </div>
 
             <div class="form-floating">
-                <input type="date" class="form-control" id="date" placeholder="Fecha de nacimiento" required>
+                <input type="date" class="form-control" id="date" placeholder="Fecha de nacimiento" required >
                 <label for="fecha de nacimiento">Fecha de nacimiento</label>
+                <span id="fechaNacimientoError" class="text-danger fw-bold"></span>
             </div>
         
             <div class="form-floating">
@@ -58,6 +62,7 @@
                     <option value="chile">Chile</option>
                 </select>
                 <label for="country">País</label>
+                <span id="nacionalidad" class="text-danger fw-bold"></span>
             </div>
         
             <div class="form-check text-start my-3">
@@ -67,7 +72,7 @@
                 </label>
             </div>
         
-            <button onclick="register()" class="btn btn-primary w-100 py-2" type="button">Registrar</button>
+            <button  class="btn btn-primary w-100 py-2" type="submit">Registrar</button>
             <span class="text-secondary">¿Ya estás registrado?</span> <a class="text-success fw-bold" style="text-decoration: none;" href="../index.html">¡Ingresa!</a>
         </form>
         
@@ -75,8 +80,7 @@
         
         <!--JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="../controllers/scripts.js"></script>
-        <script src="../controllers/galeria.js"></script>
+        <script src="../controllers/registro.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
